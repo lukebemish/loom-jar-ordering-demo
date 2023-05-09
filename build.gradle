@@ -62,6 +62,10 @@ jar {
 	}
 }
 
+remapJar {
+	reproducibleFileOrder = true
+}
+
 // configure the maven publication
 publishing {
 	publications {
